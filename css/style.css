@@ -2,5 +2,9 @@ p
 {
 	font-family: Open Sans;
 	font-weight: 300;
-	font-size: 300px;
+	font-size: 100px;
+}
+i
+{
+	color: #ff0000;
 }
