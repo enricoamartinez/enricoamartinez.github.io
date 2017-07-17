@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <title>You_Source</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
     <!-- Bootstrap Core CSS -->
@@ -55,9 +55,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+                <a class="navbar-brand page-scroll logo-link" href="#page-top">
                     <img src="img/you_source.svg" class="img-responsive logo">
-
                 </a><div class="clearfix"></div>
             </div>
             <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -66,11 +65,11 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li class="dropmenu">
-                        <a class="page-scroll dropdown-toggle" href="#services" data-toggle="dropdown">Services <span class="caret"></span></button></a>
+                        <a class="page-scroll dropdown-toggle" href="#product" data-toggle="dropdown">Services <span class="caret"></span></button></a>
                         <ul class="drophidden">
-                            <li><a href="#">Outsourcing</a></li>
-                            <li><a href="#">Product Development</a></li>
-                            <li><a href="#">Consulting</a></li>
+                            <li><a class="page-scroll dropdown-toggle" href="#prod-a" data-toggle="dropdown">Outsourcing</a></li>
+                            <li><a class="page-scroll dropdown-toggle" href="#prod-b" data-toggle="dropdown">Product Development</a></li>
+                            <li><a class="page-scroll dropdown-toggle" href="#prod-c" data-toggle="dropdown">Consulting</a></li>
                         </ul>
                     </li>
                     <li>
@@ -93,7 +92,8 @@
                         <a class="btn btn-default page-scroll" href="#services">GET STARTED</a>
                     </div>
                     <div class="scroll-down">
-                        <a href="#"></a>
+                        <a class="page-scroll dropdown-toggle" href="#product" data-toggle="dropdown"></a>
+                        <span>Scroll Down</span>
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@
     
 
     <!-- Product Section -->
-    <section id="services" class="product-section">
+    <section id="product" class="product-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -146,6 +146,61 @@
             </div>
         </div>
     </section>
+
+    <div id="prod-a"></div>
+    <section class="product-a-holder">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="product-content-holder">
+                        <h2><span>Out</span>sourcing</h2>
+                        <h4>Cost effective solutions that sustain growth</h4>
+                        <p>
+                            Many organization have the technical skills and know-how to deliver successfull software but become increasingly pressured to maintain their bottom-line when the scope and user base grows exponentially. To sustain this growth is a significant challenge; we offer tailor-made and cost-effective solutions to support this growth.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="prod-b"></div>
+    <section class="product-b-holder">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="product-content-holder">
+                        <h2>Product <span>Development</span></h2>
+                        <h4>Fully managed software development from scratch to MVP at a fixe price</h4>
+                        <p>
+                            We deliver innovative tailored end-to-end software products while collaborating with clients and users to bring sustainable value quick-to-market through our unique Value-Only Engineering approach, while embracing change, reducing risks and maintaining impeccable quality standards.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/prod-b-img.png" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="prod-c"></div>
+    <section class="product-c-holder">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="product-content-holder">
+                        <h2>Consulting</h2>
+                        <h4>Professionalize your development processes</h4>
+                        <p>
+                            We believe that exceptional software development practices and our proprietary Value-Only Engineering approach are a key differentiator in today's software development industry. We consistently deliver superior results compared to other approaches.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="container">

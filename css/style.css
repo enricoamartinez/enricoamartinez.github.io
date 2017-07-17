@@ -5,6 +5,24 @@
 	border-bottom: none;
 	padding: 0!important;
 }
+.logo-link:hover, .logo-link:focus
+{
+	background: none!important
+}
+.navbar-toggle
+{
+	border-radius: 0!important;
+	border: 2px solid #01aee9!important;
+	margin-top: 35px;
+}
+	.navbar-toggle:hover
+	{
+		background: #01aee9!important;
+	}
+	.navbar-toggle .icon-bar
+	{
+		background: #00a2da!important
+	}
 .navbar-brand
 {
 	height: auto!important;
@@ -38,6 +56,7 @@
 	padding: 0;
 	margin: 0;
 	width: 200px;
+	z-index: 9;
 }
 	.drophidden li a
 	{
@@ -98,6 +117,13 @@
 {
 	text-align: center;
 }
+	.scroll-down span
+	{
+		margin-top: 10px!important;
+		/*color: #f85d5d;*/
+		display: block;
+		color: #fff
+	}
 	.intro-section .scroll-down a
 	{
 		display: block;
@@ -111,6 +137,7 @@
 
 .product-section h2
 {
+	margin-top: 50px;
 	font-size: 51px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
@@ -161,79 +188,136 @@
 			font-size: 35px;
 			font-weight: 600;
 		}
-.featured-product-section
+.product-a-holder
 {
 	width: 100%;
-	background: #f8f8f8;
-	min-height: 100px;
-	padding-bottom: 50px;
+	background: url(../img/prod-a-bg.jpg) fixed!important;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 100px 0;
 }
-	.featured-product-section h3
-	{
-		text-align: center;
-		margin-top: 40px;
-		font-family: 'Montserrat', sans-serif;
-		font-size: 30px;
-		font-weight: 700;
-		color: #6a6a6a;
-		padding-bottom: 20px;
-	}
-	.featured-product-section a:hover	
-	{
-		text-decoration: none;
-	}
-	.product-holder
+	.product-a-holder .product-content-holder
 	{
 		width: 100%;
+		padding: 30px 0;
 		text-align: center;
-		margin-top: 15px;
-		margin-bottom: 20px;
 	}
-		.product-holder img
+		.product-a-holder .product-content-holder h2
 		{
-			width: 70%;
-			float: none;
-			margin: 0 auto;
-		}
-		.product-holder h5
-		{
+			color: #fff;
 			font-family: 'Montserrat', sans-serif;
-			font-weight: 600;
+			margin-top: 0!important;
+			font-size: 50px;
+		}
+			.product-a-holder .product-content-holder h2 span
+			{
+				color: #f85d5d;
+			}
+		.product-a-holder .product-content-holder h4
+		{
+			color: #fff;
+			font-family: Open Sans;font-weight: 300;
+			margin-top: 0!important;
 			font-size: 20px;
-			color: #444;
+			margin-top: 20px!important;
+			font-style: italic;
 		}
-		.product-holder span
+		.product-a-holder .product-content-holder p
 		{
-			font-family: 'Montserrat', sans-serif;
-			font-weight: 600;
-			font-size: 18px;
+			color: #fff;
+			font-family: Open Sans;
+			margin-top: 0!important;
+			font-size: 16px;
+			line-height: 26px;
+			margin-top: 20px!important;
+		}
+
+	.product-b-holder
+	{
+		width: 100%;
+		background: #fff;
+		padding: 100px 0;
+	}
+		.product-b-holder .product-content-holder h2
+		{
 			color: #6a6a6a;
+			font-family: 'Montserrat', sans-serif;
+			margin-top: 0!important;
+			font-size: 50px;
 		}
-		.btn-shop-holder
+			.product-b-holder .product-content-holder h2 span
+			{
+				color: #f85d5d;
+			}
+		.product-b-holder .product-content-holder h4
 		{
+			color: #6a6a6a;
+			font-family: Open Sans;font-weight: 300;
+			margin-top: 0!important;
+			font-size: 20px;
+			margin-top: 20px!important;
+			font-style: italic;
+		}
+		.product-b-holder .product-content-holder p
+		{
+			color: #6a6a6a;
+			font-family: Open Sans;
+			margin-top: 0!important;
+			font-size: 16px;
+			line-height: 26px;
+			margin-top: 20px!important;
+			
+		}
+	.product-c-holder
+	{
+		width: 100%;
+		background: url(../img/prod-c-bg.jpg) fixed!important;
+	    background-position: center;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    background-size: cover;
+	    -o-background-size: cover;
+	    padding: 100px 0;
+	}
+		.product-c-holder .product-content-holder
+		{
+			width: 100%;
+			padding: 30px 0;
 			text-align: center;
 		}
-		.shop-all
-		{
-			text-decoration: none;
-		    display: inline-block;
-		    padding: 20px 40px;
-		    border: 2px solid;
-		    color: #ffffff;
-		    letter-spacing: 1px;
-		    font-size: 14px;
-		    font-weight: 700;
-    		/*border-radius: 30px;*/
-    		margin-top: 15px;
-    		background: #f87000;
-			transition: all ease 0.3s;
-		}
-			.shop-all:hover, .shop-all:focus
+			.product-c-holder .product-content-holder h2
 			{
-				background: #c35d08;
-				transition: all ease 0.3s;
 				color: #fff;
+				font-family: 'Montserrat', sans-serif;
+				margin-top: 0!important;
+				font-size: 50px;
 			}
+				.product-c-holder .product-content-holder h2 span
+				{
+					color: #f85d5d;
+				}
+			.product-c-holder .product-content-holder h4
+			{
+				color: #fff;
+				font-family: Open Sans;font-weight: 300;
+				margin-top: 0!important;
+				font-size: 20px;
+				margin-top: 20px!important;
+				font-style: italic;
+			}
+			.product-c-holder .product-content-holder p
+			{
+				color: #fff;
+				font-family: Open Sans;
+				margin-top: 0!important;
+				font-size: 16px;
+				line-height: 26px;
+				margin-top: 20px!important;
+			}
+
 .contact-content-holder
 {
 	width: 100%;
@@ -402,6 +486,10 @@
 		font-size: 60px;
 		line-height: 90px;
 	}
+	.category-holder .category-text-holder span
+	{
+		font-size: 30px;
+	}
 }
 @media screen and (max-width: 991px) {
 	.header-content-holder h1
@@ -415,7 +503,7 @@
 	}
 		.category-holder .category-text-holder span
 		{
-			font-size: 40px;
+			font-size: 20px;
 		}
 }
 @media screen and (max-width: 767px) {
@@ -439,7 +527,7 @@
 	}
 		.category-holder .category-text-holder span
 		{
-			font-size: 50px;
+			font-size: 40px;
 		}
 	.contact-content-holder h2
 	{
@@ -461,6 +549,23 @@
 	{
 		margin-top: 70px;
 	}
+	.navbar-nav
+	{
+		margin-top: 0;
+	}
+	.product-b-holder .product-content-holder h2, .product-b-holder .product-content-holder h4, .product-b-holder .product-content-holder p
+	{
+		text-align: center;
+	}
+	.product-b-holder .product-content-holder p
+	{
+		margin-bottom: 30px;
+	}
+	.product-b-holder img
+	{
+		float: none;
+		margin: 0 auto;
+	}
 }
 @media screen and (max-width: 549px) {
 	.header-content-holder h1
@@ -468,5 +573,21 @@
 		font-size: 35px;
 		line-height: 65px;
 		margin-top: 50px;
+	}
+}
+@media screen and (max-width: 375px) {
+	.category-holder .category-text-holder span
+	{
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 338px) {
+	.logo
+	{
+		width: 250px;
+	}
+	.navbar-toggle
+	{
+		margin-top: 30px;
 	}
 }
