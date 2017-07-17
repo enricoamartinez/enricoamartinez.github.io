@@ -1,15 +1,243 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Enrico</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i" rel="stylesheet">
-</head>
-<body>
+<html lang="en">
 
-	<h1>COMING SOON...</h1>
-	<p>For email communication, feel free to contact me at <span>enrico.7tin@gmail.com</span>.</p>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>You_Source</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        var myNav = $("#nav");
+
+        $(window).on('scroll', function() {
+            "use strict";
+            if ($(window).scrollTop() >= 280) {
+                myNav.addClass("scroll");
+            } else {
+                myNav.removeClass("scroll");
+            }
+        });
+    </script>
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Nav -->
+    <nav class="navbar navbar-default navbar-fixed-top navigation" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <img src="img/you_source.svg" class="img-responsive logo">
+
+                </a><div class="clearfix"></div>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li class="dropmenu">
+                        <a class="page-scroll dropdown-toggle" href="#services" data-toggle="dropdown">Services <span class="caret"></span></button></a>
+                        <ul class="drophidden">
+                            <li><a href="#">Outsourcing</a></li>
+                            <li><a href="#">Product Development</a></li>
+                            <li><a href="#">Consulting</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <header id="header" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-content-holder">
+                        <h1>LOREM IPSUM DOLOR SIT <br>CONSECTETUER ADIPISCING</h1>
+                        <a class="btn btn-default page-scroll" href="#services">GET STARTED</a>
+                    </div>
+                    <div class="scroll-down">
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    
+
+    <!-- Product Section -->
+    <section id="services" class="product-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>OUR SERVICES</h2>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <a href="#">
+                        <div class="category-holder">
+                            <img src="img/outsourcing-img.jpg">
+                            <div class="category-text-holder">
+                                <span>OUTSOURCING</span>
+                                <div class="bot-line"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <a href="#">
+                        <div class="category-holder">
+                            <img src="img/proddev-img.jpg">
+                            <div class="category-text-holder">
+                                <span>PRODUCT DEVELOPMENT</span>
+                                <div class="bot-line"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <a href="#">
+                        <div class="category-holder">
+                            <img src="img/consulting-img.jpg">
+                            <div class="category-text-holder">
+                                <span>CONSULTING</span>
+                                <div class="bot-line"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-content-holder">
+                        <h2>Get In Touch</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/map-img.png" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="upper-holder">
+                <div class="row">
+                    <div class="col-md-8 padding-right-off">
+                        <div class="send-message-holder">
+                            <h3>Send us a Message</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Your Name</label>
+                                        <input type="text" class="form-control sendtxt" placeholder="Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Phone</label>
+                                        <input type="text" class="form-control sendtxt" placeholder="Phone">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Email Address</label>
+                                        <input type="text" class="form-control sendtxt" placeholder="Email Address">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Company</label>
+                                        <input type="text" class="form-control sendtxt" placeholder="Company">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Message</label>
+                                        <textarea rows="3" class="form-control sendtxt"></textarea>
+                                    </div>
+                                    <div class="btn-send-holder">
+                                        <button>SEND</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 padding-left-off">
+                        <div class="contact-info-holder">
+                            <h3>Contact Information</h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i> 123 Lorem Ipsum<br> Dolor Sit Amit, EA 12345</li>
+                                <li><i class="fa fa-phone"></i> (123) 345 567 789</li>
+                                <li><i class="fa fa-envelope"></i> info@companyb.com</li>
+                            </ul>
+                            <div class="social-holder">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-holder">
+                <p>&copy; Copyright 2017 <a href="">Company</a>. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 
 </body>
+
 </html>
